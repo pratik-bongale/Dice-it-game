@@ -1,6 +1,7 @@
 .container {
   width: 70%;
   margin: auto;
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -31,7 +32,7 @@ img {
 }
 
 input {
-  margin: 40px;
+  margin: 60px;
   width: 150px;
   height: 60px;
   background: #4ECCA3;
@@ -46,23 +47,4 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
   font-size: x-large;
-}
-
-.toss {
-  animation: strike 5s ease 1 forwards;
-}
-
-.roll {
-  animation: show-roll 5s ease 1 forwards;
-}
-
-@keyframes strike {
-  0% {text-decoration-line: none;}
-  50% {text-decoration-line: line-through; opacity: 100%;}
-  100% {opacity: 0;}
-}
-
-@keyframes show-roll {
-  0% {transform: translate3d(0,0,0); opacity: 0;}
-  100% {transform: translate3d(0,-40px,0); opacity: 100%;}
 }
